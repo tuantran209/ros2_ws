@@ -1,0 +1,46 @@
+[0.650s] Invoking command in '/home/tuantran/ros2_ws/src/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws/src/examples/rclcpp/services/async_client -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/src/install/examples_rclcpp_async_client
+[1.815s] -- The C compiler identification is GNU 11.4.0
+[2.648s] -- The CXX compiler identification is GNU 11.4.0
+[2.744s] -- Detecting C compiler ABI info
+[3.316s] -- Detecting C compiler ABI info - done
+[3.459s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.459s] -- Detecting C compile features
+[3.479s] -- Detecting C compile features - done
+[3.540s] -- Detecting CXX compiler ABI info
+[4.289s] -- Detecting CXX compiler ABI info - done
+[4.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.404s] -- Detecting CXX compile features
+[4.412s] -- Detecting CXX compile features - done
+[4.480s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.976s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.097s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[7.739s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.815s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.949s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.074s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.049s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[11.258s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.335s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.512s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.634s] -- Looking for pthread.h
+[15.783s] -- Looking for pthread.h - found
+[15.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.688s] -- Found Threads: TRUE  
+[21.338s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.235s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.246s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.246s] -- Configured cppcheck include dirs: 
+[22.246s] -- Configured cppcheck exclude dirs and/or files: 
+[22.252s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.252s] -- Configured cpplint exclude dirs and/or files: 
+[22.258s] -- Added test 'lint_cmake' to check CMake code style
+[22.276s] -- Added test 'uncrustify' to check C / C++ code style
+[22.277s] -- Configured uncrustify additional arguments: 
+[22.285s] -- Added test 'xmllint' to check XML markup files
+[22.300s] -- Configuring done
+[22.380s] -- Generating done
+[22.399s] -- Build files have been written to: /home/tuantran/ros2_ws/src/build/examples_rclcpp_async_client

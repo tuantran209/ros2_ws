@@ -1,0 +1,51 @@
+[0.230s] Invoking command in '/home/tuantran/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/install/my_package
+[0.460s] -- The C compiler identification is GNU 11.4.0
+[0.715s] -- The CXX compiler identification is GNU 11.4.0
+[0.749s] -- Detecting C compiler ABI info
+[1.005s] -- Detecting C compiler ABI info - done
+[1.056s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.058s] -- Detecting C compile features
+[1.060s] -- Detecting C compile features - done
+[1.077s] -- Detecting CXX compiler ABI info
+[1.401s] -- Detecting CXX compiler ABI info - done
+[1.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.456s] -- Detecting CXX compile features
+[1.459s] -- Detecting CXX compile features - done
+[1.483s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.357s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.939s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.386s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tuantran/ros2_ws/src/my_package/include>
+[3.386s] -- Configured cppcheck exclude dirs and/or files: 
+[3.391s] -- Added test 'lint_cmake' to check CMake code style
+[3.397s] -- Added test 'uncrustify' to check C / C++ code style
+[3.398s] -- Configured uncrustify additional arguments: 
+[3.403s] -- Added test 'xmllint' to check XML markup files
+[3.413s] -- Configuring done
+[3.431s] -- Generating done
+[3.440s] -- Build files have been written to: /home/tuantran/ros2_ws/build/my_package
+[3.462s] Invoked command in '/home/tuantran/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/install/my_package
+[3.472s] Invoking command in '/home/tuantran/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/my_package -- -j2 -l2
+[3.787s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[3.897s] [100%] [32m[1mLinking CXX executable my_node[0m
+[4.189s] [100%] Built target my_node
+[4.226s] Invoked command in '/home/tuantran/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/my_package -- -j2 -l2
+[4.389s] Invoking command in '/home/tuantran/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws/build/my_package
+[4.415s] -- Install configuration: ""
+[4.415s] -- Installing: /home/tuantran/ros2_ws/install/my_package/lib/my_package/my_node
+[4.416s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[4.417s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[4.418s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[4.418s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[4.419s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[4.419s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[4.419s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[4.420s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[4.420s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[4.421s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[4.421s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/package.dsv
+[4.422s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[4.422s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[4.423s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[4.423s] -- Installing: /home/tuantran/ros2_ws/install/my_package/share/my_package/package.xml
+[4.429s] Invoked command in '/home/tuantran/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws/build/my_package

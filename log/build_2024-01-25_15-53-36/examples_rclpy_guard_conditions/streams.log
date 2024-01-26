@@ -1,0 +1,40 @@
+[3.812s] Invoking command in '/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build
+[5.203s] running develop
+[5.204s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.205s]   warnings.warn(
+[5.207s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.207s]   warnings.warn(
+[6.138s] Removing /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[6.234s] Invoked command in '/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build
+[6.238s] Invoking command in '/home/tuantran/ros2_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed
+[7.535s] running egg_info
+[7.538s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[7.540s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[7.541s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[7.542s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[7.543s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[7.549s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[7.554s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[7.555s] running build
+[7.555s] running build_py
+[7.556s] creating /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build
+[7.557s] creating /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib
+[7.557s] creating /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.558s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.559s] copying examples_rclpy_guard_conditions/__init__.py -> /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[7.560s] running install
+[7.561s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.561s]   warnings.warn(
+[7.563s] running install_lib
+[7.566s] creating /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.567s] copying /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.568s] copying /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[7.570s] byte-compiling /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[7.572s] byte-compiling /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[7.573s] running install_data
+[7.575s] running install_egg_info
+[7.591s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+[7.596s] running install_scripts
+[7.704s] Installing trigger_guard_condition script to /home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[7.705s] writing list of installed files to '/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[7.800s] Invoked command in '/home/tuantran/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/tuantran/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed

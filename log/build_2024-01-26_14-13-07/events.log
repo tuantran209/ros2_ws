@@ -1,0 +1,676 @@
+[0.000000] (-) TimerEvent: {}
+[0.001469] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001571] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001636] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001726] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001837] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001924] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002018] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002111] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002204] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002297] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002390] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002483] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002584] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002693] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002777] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002852] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002926] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003000] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003074] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003164] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003239] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.003313] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.003387] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003461] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003539] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.003617] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.097986] (-) TimerEvent: {}
+[0.198925] (-) TimerEvent: {}
+[0.281948] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.284161] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/tuantran/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/tuantran/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuantran'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tuantran/ros2_ws/install/turtlesim/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuantran'), ('OLDPWD', '/home/tuantran/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1491'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tuantran/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuantran'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuantran'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuantran-VirtualBox:@/tmp/.ICE-unix/1465,unix/tuantran-VirtualBox:/tmp/.ICE-unix/1465'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a34b4caa_b87e_45ea_abf7_5c374f577a01'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M0BMI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.244'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuantran/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tuantran/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.299053] (-) TimerEvent: {}
+[0.340071] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.402895] (-) TimerEvent: {}
+[0.503498] (-) TimerEvent: {}
+[0.604025] (-) TimerEvent: {}
+[0.704753] (-) TimerEvent: {}
+[0.805462] (-) TimerEvent: {}
+[0.906132] (-) TimerEvent: {}
+[0.972237] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.006515] (-) TimerEvent: {}
+[1.108024] (-) TimerEvent: {}
+[1.118547] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.131763] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.168460] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.208570] (-) TimerEvent: {}
+[1.233937] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.309261] (-) TimerEvent: {}
+[1.327558] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.409698] (-) TimerEvent: {}
+[1.510286] (-) TimerEvent: {}
+[1.611788] (-) TimerEvent: {}
+[1.712294] (-) TimerEvent: {}
+[1.766766] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.778517] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.812442] (-) TimerEvent: {}
+[1.913018] (-) TimerEvent: {}
+[2.014053] (-) TimerEvent: {}
+[2.114776] (-) TimerEvent: {}
+[2.215443] (-) TimerEvent: {}
+[2.315993] (-) TimerEvent: {}
+[2.416468] (-) TimerEvent: {}
+[2.517430] (-) TimerEvent: {}
+[2.611106] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.618323] (-) TimerEvent: {}
+[2.719879] (-) TimerEvent: {}
+[2.820381] (-) TimerEvent: {}
+[2.920831] (-) TimerEvent: {}
+[3.021547] (-) TimerEvent: {}
+[3.122076] (-) TimerEvent: {}
+[3.222622] (-) TimerEvent: {}
+[3.323147] (-) TimerEvent: {}
+[3.423808] (-) TimerEvent: {}
+[3.524389] (-) TimerEvent: {}
+[3.625376] (-) TimerEvent: {}
+[3.726474] (-) TimerEvent: {}
+[3.827069] (-) TimerEvent: {}
+[3.927596] (-) TimerEvent: {}
+[3.973947] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.027751] (-) TimerEvent: {}
+[4.129684] (-) TimerEvent: {}
+[4.230499] (-) TimerEvent: {}
+[4.312773] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.314728] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.315028] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.317095] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.319755] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.320526] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.326058] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.326383] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.330616] (-) TimerEvent: {}
+[4.375650] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[4.385212] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/tuantran/ros2_ws/build/cpp_pubsub\n'}
+[4.423126] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.424302] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[4.424432] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tuantran/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/tuantran/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuantran'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tuantran/ros2_ws/install/turtlesim/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuantran'), ('OLDPWD', '/home/tuantran/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1491'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tuantran/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuantran'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuantran'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuantran-VirtualBox:@/tmp/.ICE-unix/1465,unix/tuantran-VirtualBox:/tmp/.ICE-unix/1465'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a34b4caa_b87e_45ea_abf7_5c374f577a01'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M0BMI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.244'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuantran/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tuantran/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[4.433012] (-) TimerEvent: {}
+[4.533892] (-) TimerEvent: {}
+[4.634458] (-) TimerEvent: {}
+[4.692569] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[4.734643] (-) TimerEvent: {}
+[4.835237] (-) TimerEvent: {}
+[4.936938] (-) TimerEvent: {}
+[5.037676] (-) TimerEvent: {}
+[5.139075] (-) TimerEvent: {}
+[5.240839] (-) TimerEvent: {}
+[5.341323] (-) TimerEvent: {}
+[5.441792] (-) TimerEvent: {}
+[5.542850] (-) TimerEvent: {}
+[5.643985] (-) TimerEvent: {}
+[5.745750] (-) TimerEvent: {}
+[5.846714] (-) TimerEvent: {}
+[5.948018] (-) TimerEvent: {}
+[6.049370] (-) TimerEvent: {}
+[6.150580] (-) TimerEvent: {}
+[6.256368] (-) TimerEvent: {}
+[6.357267] (-) TimerEvent: {}
+[6.458466] (-) TimerEvent: {}
+[6.559159] (-) TimerEvent: {}
+[6.660546] (-) TimerEvent: {}
+[6.762041] (-) TimerEvent: {}
+[6.862612] (-) TimerEvent: {}
+[6.964240] (-) TimerEvent: {}
+[7.064695] (-) TimerEvent: {}
+[7.166621] (-) TimerEvent: {}
+[7.267331] (-) TimerEvent: {}
+[7.367890] (-) TimerEvent: {}
+[7.468556] (-) TimerEvent: {}
+[7.570012] (-) TimerEvent: {}
+[7.671568] (-) TimerEvent: {}
+[7.772177] (-) TimerEvent: {}
+[7.873676] (-) TimerEvent: {}
+[7.977076] (-) TimerEvent: {}
+[8.077776] (-) TimerEvent: {}
+[8.178326] (-) TimerEvent: {}
+[8.278953] (-) TimerEvent: {}
+[8.379625] (-) TimerEvent: {}
+[8.480232] (-) TimerEvent: {}
+[8.580864] (-) TimerEvent: {}
+[8.682270] (-) TimerEvent: {}
+[8.783809] (-) TimerEvent: {}
+[8.884972] (-) TimerEvent: {}
+[8.985619] (-) TimerEvent: {}
+[9.086174] (-) TimerEvent: {}
+[9.187547] (-) TimerEvent: {}
+[9.288109] (-) TimerEvent: {}
+[9.388581] (-) TimerEvent: {}
+[9.489019] (-) TimerEvent: {}
+[9.589473] (-) TimerEvent: {}
+[9.690036] (-) TimerEvent: {}
+[9.790601] (-) TimerEvent: {}
+[9.891108] (-) TimerEvent: {}
+[9.992511] (-) TimerEvent: {}
+[10.093331] (-) TimerEvent: {}
+[10.195656] (-) TimerEvent: {}
+[10.296544] (-) TimerEvent: {}
+[10.397994] (-) TimerEvent: {}
+[10.499234] (-) TimerEvent: {}
+[10.601824] (-) TimerEvent: {}
+[10.703400] (-) TimerEvent: {}
+[10.804319] (-) TimerEvent: {}
+[10.905428] (-) TimerEvent: {}
+[11.006950] (-) TimerEvent: {}
+[11.108487] (-) TimerEvent: {}
+[11.209197] (-) TimerEvent: {}
+[11.310584] (-) TimerEvent: {}
+[11.412124] (-) TimerEvent: {}
+[11.512745] (-) TimerEvent: {}
+[11.614171] (-) TimerEvent: {}
+[11.715085] (-) TimerEvent: {}
+[11.816256] (-) TimerEvent: {}
+[11.918815] (-) TimerEvent: {}
+[12.019332] (-) TimerEvent: {}
+[12.119946] (-) TimerEvent: {}
+[12.220490] (-) TimerEvent: {}
+[12.321212] (-) TimerEvent: {}
+[12.421673] (-) TimerEvent: {}
+[12.522256] (-) TimerEvent: {}
+[12.623698] (-) TimerEvent: {}
+[12.724268] (-) TimerEvent: {}
+[12.825189] (-) TimerEvent: {}
+[12.926355] (-) TimerEvent: {}
+[13.026937] (-) TimerEvent: {}
+[13.127495] (-) TimerEvent: {}
+[13.228047] (-) TimerEvent: {}
+[13.328653] (-) TimerEvent: {}
+[13.429232] (-) TimerEvent: {}
+[13.531659] (-) TimerEvent: {}
+[13.632253] (-) TimerEvent: {}
+[13.733553] (-) TimerEvent: {}
+[13.834340] (-) TimerEvent: {}
+[13.935918] (-) TimerEvent: {}
+[14.036480] (-) TimerEvent: {}
+[14.137469] (-) TimerEvent: {}
+[14.238320] (-) TimerEvent: {}
+[14.339855] (-) TimerEvent: {}
+[14.440427] (-) TimerEvent: {}
+[14.541009] (-) TimerEvent: {}
+[14.642193] (-) TimerEvent: {}
+[14.743131] (-) TimerEvent: {}
+[14.843912] (-) TimerEvent: {}
+[14.944459] (-) TimerEvent: {}
+[15.045023] (-) TimerEvent: {}
+[15.145515] (-) TimerEvent: {}
+[15.246006] (-) TimerEvent: {}
+[15.347386] (-) TimerEvent: {}
+[15.447934] (-) TimerEvent: {}
+[15.548524] (-) TimerEvent: {}
+[15.650672] (-) TimerEvent: {}
+[15.751238] (-) TimerEvent: {}
+[15.851795] (-) TimerEvent: {}
+[15.952416] (-) TimerEvent: {}
+[16.053931] (-) TimerEvent: {}
+[16.155434] (-) TimerEvent: {}
+[16.256087] (-) TimerEvent: {}
+[16.357563] (-) TimerEvent: {}
+[16.458215] (-) TimerEvent: {}
+[16.559639] (-) TimerEvent: {}
+[16.660250] (-) TimerEvent: {}
+[16.761170] (-) TimerEvent: {}
+[16.861685] (-) TimerEvent: {}
+[16.962819] (-) TimerEvent: {}
+[17.063379] (-) TimerEvent: {}
+[17.164159] (-) TimerEvent: {}
+[17.265394] (-) TimerEvent: {}
+[17.366274] (-) TimerEvent: {}
+[17.466864] (-) TimerEvent: {}
+[17.567324] (-) TimerEvent: {}
+[17.668998] (-) TimerEvent: {}
+[17.770332] (-) TimerEvent: {}
+[17.871877] (-) TimerEvent: {}
+[17.972475] (-) TimerEvent: {}
+[18.073634] (-) TimerEvent: {}
+[18.174195] (-) TimerEvent: {}
+[18.275716] (-) TimerEvent: {}
+[18.376332] (-) TimerEvent: {}
+[18.476812] (-) TimerEvent: {}
+[18.578142] (-) TimerEvent: {}
+[18.679606] (-) TimerEvent: {}
+[18.781201] (-) TimerEvent: {}
+[18.882727] (-) TimerEvent: {}
+[18.983279] (-) TimerEvent: {}
+[19.084926] (-) TimerEvent: {}
+[19.185382] (-) TimerEvent: {}
+[19.286991] (-) TimerEvent: {}
+[19.388480] (-) TimerEvent: {}
+[19.489043] (-) TimerEvent: {}
+[19.590545] (-) TimerEvent: {}
+[19.691100] (-) TimerEvent: {}
+[19.792650] (-) TimerEvent: {}
+[19.893215] (-) TimerEvent: {}
+[19.994774] (-) TimerEvent: {}
+[20.096299] (-) TimerEvent: {}
+[20.197834] (-) TimerEvent: {}
+[20.299330] (-) TimerEvent: {}
+[20.399931] (-) TimerEvent: {}
+[20.501495] (-) TimerEvent: {}
+[20.603013] (-) TimerEvent: {}
+[20.703576] (-) TimerEvent: {}
+[20.805139] (-) TimerEvent: {}
+[20.906663] (-) TimerEvent: {}
+[21.008205] (-) TimerEvent: {}
+[21.110738] (-) TimerEvent: {}
+[21.211944] (-) TimerEvent: {}
+[21.314703] (-) TimerEvent: {}
+[21.415248] (-) TimerEvent: {}
+[21.517299] (-) TimerEvent: {}
+[21.622224] (-) TimerEvent: {}
+[21.722751] (-) TimerEvent: {}
+[21.823346] (-) TimerEvent: {}
+[21.924047] (-) TimerEvent: {}
+[22.025415] (-) TimerEvent: {}
+[22.126004] (-) TimerEvent: {}
+[22.226376] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[22.228529] (-) TimerEvent: {}
+[22.330333] (-) TimerEvent: {}
+[22.431488] (-) TimerEvent: {}
+[22.532142] (-) TimerEvent: {}
+[22.633109] (-) TimerEvent: {}
+[22.733809] (-) TimerEvent: {}
+[22.835096] (-) TimerEvent: {}
+[22.937687] (-) TimerEvent: {}
+[23.038666] (-) TimerEvent: {}
+[23.139801] (-) TimerEvent: {}
+[23.241309] (-) TimerEvent: {}
+[23.342811] (-) TimerEvent: {}
+[23.445031] (-) TimerEvent: {}
+[23.518319] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[23.545871] (-) TimerEvent: {}
+[23.634163] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[23.647382] (-) TimerEvent: {}
+[23.747953] (-) TimerEvent: {}
+[23.849075] (-) TimerEvent: {}
+[23.950516] (-) TimerEvent: {}
+[24.051887] (-) TimerEvent: {}
+[24.153177] (-) TimerEvent: {}
+[24.254609] (-) TimerEvent: {}
+[24.355762] (-) TimerEvent: {}
+[24.456553] (-) TimerEvent: {}
+[24.557355] (-) TimerEvent: {}
+[24.658030] (-) TimerEvent: {}
+[24.759374] (-) TimerEvent: {}
+[24.860935] (-) TimerEvent: {}
+[24.962490] (-) TimerEvent: {}
+[25.063114] (-) TimerEvent: {}
+[25.163730] (-) TimerEvent: {}
+[25.265505] (-) TimerEvent: {}
+[25.367002] (-) TimerEvent: {}
+[25.468503] (-) TimerEvent: {}
+[25.569486] (-) TimerEvent: {}
+[25.670244] (-) TimerEvent: {}
+[25.771200] (-) TimerEvent: {}
+[25.872821] (-) TimerEvent: {}
+[25.974252] (-) TimerEvent: {}
+[26.075839] (-) TimerEvent: {}
+[26.177545] (-) TimerEvent: {}
+[26.278902] (-) TimerEvent: {}
+[26.379591] (-) TimerEvent: {}
+[26.483180] (-) TimerEvent: {}
+[26.584528] (-) TimerEvent: {}
+[26.685390] (-) TimerEvent: {}
+[26.786524] (-) TimerEvent: {}
+[26.887122] (-) TimerEvent: {}
+[26.988710] (-) TimerEvent: {}
+[27.090235] (-) TimerEvent: {}
+[27.191760] (-) TimerEvent: {}
+[27.293209] (-) TimerEvent: {}
+[27.393801] (-) TimerEvent: {}
+[27.494374] (-) TimerEvent: {}
+[27.594922] (-) TimerEvent: {}
+[27.695680] (-) TimerEvent: {}
+[27.797011] (-) TimerEvent: {}
+[27.897610] (-) TimerEvent: {}
+[27.998134] (-) TimerEvent: {}
+[28.099686] (-) TimerEvent: {}
+[28.200251] (-) TimerEvent: {}
+[28.301543] (-) TimerEvent: {}
+[28.402377] (-) TimerEvent: {}
+[28.503903] (-) TimerEvent: {}
+[28.604461] (-) TimerEvent: {}
+[28.705962] (-) TimerEvent: {}
+[28.807483] (-) TimerEvent: {}
+[28.908035] (-) TimerEvent: {}
+[29.008663] (-) TimerEvent: {}
+[29.110169] (-) TimerEvent: {}
+[29.211667] (-) TimerEvent: {}
+[29.312268] (-) TimerEvent: {}
+[29.412814] (-) TimerEvent: {}
+[29.514354] (-) TimerEvent: {}
+[29.614938] (-) TimerEvent: {}
+[29.715510] (-) TimerEvent: {}
+[29.816137] (-) TimerEvent: {}
+[29.918293] (-) TimerEvent: {}
+[30.019063] (-) TimerEvent: {}
+[30.119640] (-) TimerEvent: {}
+[30.220229] (-) TimerEvent: {}
+[30.321417] (-) TimerEvent: {}
+[30.422332] (-) TimerEvent: {}
+[30.523839] (-) TimerEvent: {}
+[30.624419] (-) TimerEvent: {}
+[30.725040] (-) TimerEvent: {}
+[30.826501] (-) TimerEvent: {}
+[30.927170] (-) TimerEvent: {}
+[31.028682] (-) TimerEvent: {}
+[31.130230] (-) TimerEvent: {}
+[31.230778] (-) TimerEvent: {}
+[31.331379] (-) TimerEvent: {}
+[31.431993] (-) TimerEvent: {}
+[31.532566] (-) TimerEvent: {}
+[31.634052] (-) TimerEvent: {}
+[31.735590] (-) TimerEvent: {}
+[31.837075] (-) TimerEvent: {}
+[31.939713] (-) TimerEvent: {}
+[32.041218] (-) TimerEvent: {}
+[32.142664] (-) TimerEvent: {}
+[32.243179] (-) TimerEvent: {}
+[32.343772] (-) TimerEvent: {}
+[32.444343] (-) TimerEvent: {}
+[32.544975] (-) TimerEvent: {}
+[32.645457] (-) TimerEvent: {}
+[32.745969] (-) TimerEvent: {}
+[32.846488] (-) TimerEvent: {}
+[32.946996] (-) TimerEvent: {}
+[33.047476] (-) TimerEvent: {}
+[33.148113] (-) TimerEvent: {}
+[33.248629] (-) TimerEvent: {}
+[33.349309] (-) TimerEvent: {}
+[33.449928] (-) TimerEvent: {}
+[33.551469] (-) TimerEvent: {}
+[33.652013] (-) TimerEvent: {}
+[33.753605] (-) TimerEvent: {}
+[33.854124] (-) TimerEvent: {}
+[33.955688] (-) TimerEvent: {}
+[34.056226] (-) TimerEvent: {}
+[34.156796] (-) TimerEvent: {}
+[34.258323] (-) TimerEvent: {}
+[34.358864] (-) TimerEvent: {}
+[34.459442] (-) TimerEvent: {}
+[34.559987] (-) TimerEvent: {}
+[34.661553] (-) TimerEvent: {}
+[34.762099] (-) TimerEvent: {}
+[34.863634] (-) TimerEvent: {}
+[34.964171] (-) TimerEvent: {}
+[35.065885] (-) TimerEvent: {}
+[35.166327] (-) TimerEvent: {}
+[35.266840] (-) TimerEvent: {}
+[35.367422] (-) TimerEvent: {}
+[35.467961] (-) TimerEvent: {}
+[35.569533] (-) TimerEvent: {}
+[35.670086] (-) TimerEvent: {}
+[35.771633] (-) TimerEvent: {}
+[35.872163] (-) TimerEvent: {}
+[35.972697] (-) TimerEvent: {}
+[36.073279] (-) TimerEvent: {}
+[36.173925] (-) TimerEvent: {}
+[36.275401] (-) TimerEvent: {}
+[36.376038] (-) TimerEvent: {}
+[36.477184] (-) TimerEvent: {}
+[36.579012] (-) TimerEvent: {}
+[36.679591] (-) TimerEvent: {}
+[36.780265] (-) TimerEvent: {}
+[36.881664] (-) TimerEvent: {}
+[36.983276] (-) TimerEvent: {}
+[37.083874] (-) TimerEvent: {}
+[37.185231] (-) TimerEvent: {}
+[37.285848] (-) TimerEvent: {}
+[37.386625] (-) TimerEvent: {}
+[37.488317] (-) TimerEvent: {}
+[37.589546] (-) TimerEvent: {}
+[37.691067] (-) TimerEvent: {}
+[37.792631] (-) TimerEvent: {}
+[37.893316] (-) TimerEvent: {}
+[37.995666] (-) TimerEvent: {}
+[38.099780] (-) TimerEvent: {}
+[38.201536] (-) TimerEvent: {}
+[38.303217] (-) TimerEvent: {}
+[38.403757] (-) TimerEvent: {}
+[38.504350] (-) TimerEvent: {}
+[38.604885] (-) TimerEvent: {}
+[38.706396] (-) TimerEvent: {}
+[38.806990] (-) TimerEvent: {}
+[38.907557] (-) TimerEvent: {}
+[39.008122] (-) TimerEvent: {}
+[39.109640] (-) TimerEvent: {}
+[39.210199] (-) TimerEvent: {}
+[39.311751] (-) TimerEvent: {}
+[39.412326] (-) TimerEvent: {}
+[39.512879] (-) TimerEvent: {}
+[39.614407] (-) TimerEvent: {}
+[39.715869] (-) TimerEvent: {}
+[39.816495] (-) TimerEvent: {}
+[39.917647] (-) TimerEvent: {}
+[40.020624] (-) TimerEvent: {}
+[40.121221] (-) TimerEvent: {}
+[40.221797] (-) TimerEvent: {}
+[40.323215] (-) TimerEvent: {}
+[40.424731] (-) TimerEvent: {}
+[40.527237] (-) TimerEvent: {}
+[40.628875] (-) TimerEvent: {}
+[40.729452] (-) TimerEvent: {}
+[40.830600] (-) TimerEvent: {}
+[40.931532] (-) TimerEvent: {}
+[41.032987] (-) TimerEvent: {}
+[41.133702] (-) TimerEvent: {}
+[41.235098] (-) TimerEvent: {}
+[41.336143] (-) TimerEvent: {}
+[41.437261] (-) TimerEvent: {}
+[41.538754] (-) TimerEvent: {}
+[41.640308] (-) TimerEvent: {}
+[41.741360] (-) TimerEvent: {}
+[41.842367] (-) TimerEvent: {}
+[41.943938] (-) TimerEvent: {}
+[42.045081] (-) TimerEvent: {}
+[42.146013] (-) TimerEvent: {}
+[42.247565] (-) TimerEvent: {}
+[42.353293] (-) TimerEvent: {}
+[42.454520] (-) TimerEvent: {}
+[42.556053] (-) TimerEvent: {}
+[42.658599] (-) TimerEvent: {}
+[42.760091] (-) TimerEvent: {}
+[42.861375] (-) TimerEvent: {}
+[42.963193] (-) TimerEvent: {}
+[43.064962] (-) TimerEvent: {}
+[43.166250] (-) TimerEvent: {}
+[43.267797] (-) TimerEvent: {}
+[43.368381] (-) TimerEvent: {}
+[43.469058] (-) TimerEvent: {}
+[43.570392] (-) TimerEvent: {}
+[43.670945] (-) TimerEvent: {}
+[43.771497] (-) TimerEvent: {}
+[43.872142] (-) TimerEvent: {}
+[43.972710] (-) TimerEvent: {}
+[44.075175] (-) TimerEvent: {}
+[44.175780] (-) TimerEvent: {}
+[44.276321] (-) TimerEvent: {}
+[44.377561] (-) TimerEvent: {}
+[44.478421] (-) TimerEvent: {}
+[44.580167] (-) TimerEvent: {}
+[44.682450] (-) TimerEvent: {}
+[44.783003] (-) TimerEvent: {}
+[44.883567] (-) TimerEvent: {}
+[44.984095] (-) TimerEvent: {}
+[45.084657] (-) TimerEvent: {}
+[45.186153] (-) TimerEvent: {}
+[45.286803] (-) TimerEvent: {}
+[45.387539] (-) TimerEvent: {}
+[45.488827] (-) TimerEvent: {}
+[45.590428] (-) TimerEvent: {}
+[45.691073] (-) TimerEvent: {}
+[45.792543] (-) TimerEvent: {}
+[45.893713] (-) TimerEvent: {}
+[45.995755] (-) TimerEvent: {}
+[46.097112] (-) TimerEvent: {}
+[46.198609] (-) TimerEvent: {}
+[46.300143] (-) TimerEvent: {}
+[46.401693] (-) TimerEvent: {}
+[46.502263] (-) TimerEvent: {}
+[46.603797] (-) TimerEvent: {}
+[46.704359] (-) TimerEvent: {}
+[46.805250] (-) TimerEvent: {}
+[46.906435] (-) TimerEvent: {}
+[47.007021] (-) TimerEvent: {}
+[47.107584] (-) TimerEvent: {}
+[47.209102] (-) TimerEvent: {}
+[47.310640] (-) TimerEvent: {}
+[47.411173] (-) TimerEvent: {}
+[47.511738] (-) TimerEvent: {}
+[47.612336] (-) TimerEvent: {}
+[47.712968] (-) TimerEvent: {}
+[47.813387] (-) TimerEvent: {}
+[47.914001] (-) TimerEvent: {}
+[48.015542] (-) TimerEvent: {}
+[48.116098] (-) TimerEvent: {}
+[48.216514] (-) TimerEvent: {}
+[48.317744] (-) TimerEvent: {}
+[48.418288] (-) TimerEvent: {}
+[48.518783] (-) TimerEvent: {}
+[48.619423] (-) TimerEvent: {}
+[48.720026] (-) TimerEvent: {}
+[48.821530] (-) TimerEvent: {}
+[48.922063] (-) TimerEvent: {}
+[49.022675] (-) TimerEvent: {}
+[49.123694] (-) TimerEvent: {}
+[49.224702] (-) TimerEvent: {}
+[49.326259] (-) TimerEvent: {}
+[49.426765] (-) TimerEvent: {}
+[49.527409] (-) TimerEvent: {}
+[49.627946] (-) TimerEvent: {}
+[49.728485] (-) TimerEvent: {}
+[49.830025] (-) TimerEvent: {}
+[49.931563] (-) TimerEvent: {}
+[50.032131] (-) TimerEvent: {}
+[50.133220] (-) TimerEvent: {}
+[50.234244] (-) TimerEvent: {}
+[50.337692] (-) TimerEvent: {}
+[50.439244] (-) TimerEvent: {}
+[50.540833] (-) TimerEvent: {}
+[50.642315] (-) TimerEvent: {}
+[50.742811] (-) TimerEvent: {}
+[50.843301] (-) TimerEvent: {}
+[50.943933] (-) TimerEvent: {}
+[51.044412] (-) TimerEvent: {}
+[51.144882] (-) TimerEvent: {}
+[51.245612] (-) TimerEvent: {}
+[51.347184] (-) TimerEvent: {}
+[51.448808] (-) TimerEvent: {}
+[51.549279] (-) TimerEvent: {}
+[51.650849] (-) TimerEvent: {}
+[51.751405] (-) TimerEvent: {}
+[51.851962] (-) TimerEvent: {}
+[51.953523] (-) TimerEvent: {}
+[52.054070] (-) TimerEvent: {}
+[52.155590] (-) TimerEvent: {}
+[52.256164] (-) TimerEvent: {}
+[52.357581] (-) TimerEvent: {}
+[52.459216] (-) TimerEvent: {}
+[52.559841] (-) TimerEvent: {}
+[52.660358] (-) TimerEvent: {}
+[52.761386] (-) TimerEvent: {}
+[52.862439] (-) TimerEvent: {}
+[52.962995] (-) TimerEvent: {}
+[53.063559] (-) TimerEvent: {}
+[53.164091] (-) TimerEvent: {}
+[53.264674] (-) TimerEvent: {}
+[53.365358] (-) TimerEvent: {}
+[53.465795] (-) TimerEvent: {}
+[53.566270] (-) TimerEvent: {}
+[53.666894] (-) TimerEvent: {}
+[53.767516] (-) TimerEvent: {}
+[53.868123] (-) TimerEvent: {}
+[53.968712] (-) TimerEvent: {}
+[54.069738] (-) TimerEvent: {}
+[54.170268] (-) TimerEvent: {}
+[54.271865] (-) TimerEvent: {}
+[54.372561] (-) TimerEvent: {}
+[54.473932] (-) TimerEvent: {}
+[54.575500] (-) TimerEvent: {}
+[54.676070] (-) TimerEvent: {}
+[54.776652] (-) TimerEvent: {}
+[54.879112] (-) TimerEvent: {}
+[54.979695] (-) TimerEvent: {}
+[55.080332] (-) TimerEvent: {}
+[55.181731] (-) TimerEvent: {}
+[55.283337] (-) TimerEvent: {}
+[55.384980] (-) TimerEvent: {}
+[55.485646] (-) TimerEvent: {}
+[55.586935] (-) TimerEvent: {}
+[55.687476] (-) TimerEvent: {}
+[55.788041] (-) TimerEvent: {}
+[55.889605] (-) TimerEvent: {}
+[55.991130] (-) TimerEvent: {}
+[56.091722] (-) TimerEvent: {}
+[56.192314] (-) TimerEvent: {}
+[56.293507] (-) TimerEvent: {}
+[56.394324] (-) TimerEvent: {}
+[56.495861] (-) TimerEvent: {}
+[56.597446] (-) TimerEvent: {}
+[56.697966] (-) TimerEvent: {}
+[56.798534] (-) TimerEvent: {}
+[56.881995] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[56.898640] (-) TimerEvent: {}
+[57.000374] (-) TimerEvent: {}
+[57.101738] (-) TimerEvent: {}
+[57.202322] (-) TimerEvent: {}
+[57.303880] (-) TimerEvent: {}
+[57.404409] (-) TimerEvent: {}
+[57.504994] (-) TimerEvent: {}
+[57.605505] (-) TimerEvent: {}
+[57.706059] (-) TimerEvent: {}
+[57.806650] (-) TimerEvent: {}
+[57.907162] (-) TimerEvent: {}
+[58.008749] (-) TimerEvent: {}
+[58.109267] (-) TimerEvent: {}
+[58.210808] (-) TimerEvent: {}
+[58.311366] (-) TimerEvent: {}
+[58.411960] (-) TimerEvent: {}
+[58.512427] (-) TimerEvent: {}
+[58.613128] (-) TimerEvent: {}
+[58.642078] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[58.694080] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[58.713591] (-) TimerEvent: {}
+[58.802982] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[58.813810] (-) TimerEvent: {}
+[58.831715] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tuantran/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/tuantran/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tuantran'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tuantran/ros2_ws/install/turtlesim/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tuantran'), ('OLDPWD', '/home/tuantran/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1491'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tuantran/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tuantran'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tuantran'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tuantran-VirtualBox:@/tmp/.ICE-unix/1465,unix/tuantran-VirtualBox:/tmp/.ICE-unix/1465'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a34b4caa_b87e_45ea_abf7_5c374f577a01'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M0BMI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.244'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tuantran/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tuantran/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/tuantran/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tuantran/ros2_ws/install/turtlesim:/home/tuantran/ros2_ws/install/my_package:/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:/home/tuantran/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_timer:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_service:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_composition:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_client:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclcpp_cbg_executor:/home/tuantran/ros2_ws/install/examples_rclcpp_async_client:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[58.866932] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[58.872003] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[58.882834] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/tuantran/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[58.883454] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/tuantran/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[58.884232] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[58.910446] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/tuantran/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[58.911307] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[58.911854] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[58.912435] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[58.913407] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[58.913894] (-) TimerEvent: {}
+[58.914715] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[58.915542] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[58.916993] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[58.917339] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[58.919943] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[58.920352] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[58.926007] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[58.926257] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[58.926524] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[58.926764] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[58.926982] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tuantran/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[58.928685] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[59.014252] (-) TimerEvent: {}
+[59.114920] (-) TimerEvent: {}
+[59.216964] (-) TimerEvent: {}
+[59.318905] (-) TimerEvent: {}
+[59.420638] (-) TimerEvent: {}
+[59.522270] (-) TimerEvent: {}
+[59.622771] (-) TimerEvent: {}
+[59.718322] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[59.721204] (-) EventReactorShutdown: {}

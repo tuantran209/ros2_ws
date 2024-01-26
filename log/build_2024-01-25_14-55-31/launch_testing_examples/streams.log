@@ -1,0 +1,27 @@
+[3.179s] Invoking command in '/home/tuantran/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/tuantran/ros2_ws/build/launch_testing_examples/prefix_override:/home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tuantran/ros2_ws/build/launch_testing_examples/build --no-deps install_data
+[4.369s] running develop
+[4.371s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.371s]   warnings.warn(
+[4.375s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.375s]   warnings.warn(
+[5.174s] running egg_info
+[5.174s] creating launch_testing_examples.egg-info
+[5.174s] writing launch_testing_examples.egg-info/PKG-INFO
+[5.175s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[5.175s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[5.176s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[5.176s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[5.176s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.204s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.206s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.218s] running build_ext
+[5.219s] Creating /home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[5.221s] 
+[5.222s] Installed /home/tuantran/ros2_ws/build/launch_testing_examples
+[5.222s] running install_data
+[5.222s] creating /home/tuantran/ros2_ws/install/launch_testing_examples/share/ament_index
+[5.223s] creating /home/tuantran/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[5.223s] creating /home/tuantran/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.223s] copying resource/launch_testing_examples -> /home/tuantran/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.224s] copying package.xml -> /home/tuantran/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[5.317s] Invoked command in '/home/tuantran/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/tuantran/ros2_ws/build/launch_testing_examples/prefix_override:/home/tuantran/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tuantran/ros2_ws/build/launch_testing_examples/build --no-deps install_data

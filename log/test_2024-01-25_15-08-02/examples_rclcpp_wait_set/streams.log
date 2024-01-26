@@ -1,0 +1,163 @@
+[0.315s] Invoking command in '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.363s] UpdateCTestConfiguration  from :/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.364s] Parse Config file:/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.364s]    Site: tuantran-VirtualBox
+[0.364s]    Build name: (empty)
+[0.366s]  Add coverage exclude regular expressions.
+[0.367s] Create new tag: 20240125-0808 - Experimental
+[0.367s] UpdateCTestConfiguration  from :/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.368s] Parse Config file:/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.368s] Test project /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set
+[0.369s] Constructing a list of tests
+[0.372s] Done constructing a list of tests
+[0.372s] Updating test list for fixtures
+[0.372s] Added 0 tests to meet fixture requirements
+[0.373s] Checking test dependency graph...
+[0.373s] Checking test dependency graph end
+[0.373s] test 1
+[0.374s]     Start 1: copyright
+[0.374s] 
+[0.375s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.375s] 1: Test timeout computed to be: 200
+[0.660s] 1: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[0.660s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[3.600s] 1: No problems found, checked 15 files
+[3.661s] 1: -- run_test.py: return code 0
+[3.669s] 1: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[3.709s] 1/6 Test #1: copyright ........................   Passed    3.33 sec
+[3.709s] test 2
+[3.710s]     Start 2: cppcheck
+[3.710s] 
+[3.711s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include"
+[3.713s] 2: Test timeout computed to be: 300
+[3.956s] 2: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[3.957s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include
+[4.385s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[4.438s] 2: -- run_test.py: return code 0
+[4.438s] 2: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[4.464s] 2/6 Test #2: cppcheck .........................   Passed    0.75 sec
+[4.465s] test 3
+[4.465s]     Start 3: cpplint
+[4.465s] 
+[4.465s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[4.466s] 3: Test timeout computed to be: 120
+[4.814s] 3: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[4.815s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[6.896s] 3: Using '--root=/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include' argument
+[6.896s] 3: 
+[6.896s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[6.897s] 3: 
+[6.897s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[6.897s] 3: 
+[6.897s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[6.898s] 3: 
+[6.898s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[6.898s] 3: 
+[6.899s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[6.899s] 3: 
+[6.899s] 3: Using '--root=/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src' argument
+[6.899s] 3: 
+[6.900s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[6.900s] 3: 
+[6.900s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[6.900s] 3: 
+[6.900s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[6.905s] 3: 
+[6.906s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[6.906s] 3: 
+[6.907s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[6.922s] 3: 
+[6.922s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[6.922s] 3: 
+[6.922s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[6.923s] 3: 
+[6.923s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[6.923s] 3: 
+[6.923s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[6.923s] 3: 
+[6.924s] 3: Done processing /home/tuantran/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[6.924s] 3: 
+[6.924s] 3: No problems found
+[6.954s] 3: -- run_test.py: return code 0
+[6.954s] 3: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[6.975s] 3/6 Test #3: cpplint ..........................   Passed    2.51 sec
+[6.975s] test 4
+[6.976s]     Start 4: lint_cmake
+[6.976s] 
+[6.977s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[6.978s] 4: Test timeout computed to be: 60
+[7.216s] 4: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[7.218s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[7.581s] 4: 
+[7.582s] 4: No problems found
+[7.646s] 4: -- run_test.py: return code 0
+[7.646s] 4: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[7.680s] 4/6 Test #4: lint_cmake .......................   Passed    0.70 sec
+[7.681s] test 5
+[7.687s]     Start 5: uncrustify
+[7.687s] 
+[7.687s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[7.688s] 5: Test timeout computed to be: 60
+[8.021s] 5: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[8.022s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[8.797s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[8.802s] 5: 
+[8.803s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[8.804s] 5: 
+[8.804s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[8.804s] 5: 
+[8.804s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[8.804s] 5: 
+[8.805s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[8.805s] 5: 
+[8.805s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[8.806s] 5: 
+[8.806s] 5: No code style divergence in file 'src/listener.cpp'
+[8.806s] 5: 
+[8.806s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[8.806s] 5: 
+[8.807s] 5: No code style divergence in file 'src/talker.cpp'
+[8.807s] 5: 
+[8.807s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[8.807s] 5: 
+[8.808s] 5: No code style divergence in file 'src/wait_set.cpp'
+[8.808s] 5: 
+[8.808s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[8.809s] 5: 
+[8.809s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[8.824s] 5: 
+[8.825s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[8.825s] 5: 
+[8.826s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[8.826s] 5: 
+[8.826s] 5: No problems found
+[8.903s] 5: -- run_test.py: return code 0
+[8.904s] 5: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[8.992s] 5/6 Test #5: uncrustify .......................   Passed    1.31 sec
+[8.994s] test 6
+[8.994s]     Start 6: xmllint
+[8.995s] 
+[8.998s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[8.999s] 6: Test timeout computed to be: 60
+[9.478s] 6: -- run_test.py: invoking following command in '/home/tuantran/ros2_ws/src/examples/rclcpp/wait_set':
+[9.482s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[10.430s] 6: File 'package.xml' is valid
+[10.431s] 6: 
+[10.431s] 6: No problems found
+[10.522s] 6: -- run_test.py: return code 0
+[10.523s] 6: -- run_test.py: verify result file '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[10.614s] 6/6 Test #6: xmllint ..........................   Passed    1.62 sec
+[10.615s] 
+[10.615s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[10.616s] 
+[10.617s] Label Time Summary:
+[10.617s] copyright     =   3.33 sec*proc (1 test)
+[10.617s] cppcheck      =   0.75 sec*proc (1 test)
+[10.618s] cpplint       =   2.51 sec*proc (1 test)
+[10.618s] lint_cmake    =   0.70 sec*proc (1 test)
+[10.618s] linter        =  10.22 sec*proc (6 tests)
+[10.618s] uncrustify    =   1.31 sec*proc (1 test)
+[10.619s] xmllint       =   1.62 sec*proc (1 test)
+[10.619s] 
+[10.619s] Total Test time (real) =  10.25 sec
+[10.643s] Invoked command in '/home/tuantran/ros2_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/tuantran/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

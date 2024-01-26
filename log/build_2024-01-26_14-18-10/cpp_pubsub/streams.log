@@ -1,0 +1,11 @@
+[0.274s] Invoking command in '/home/tuantran/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.360s] [31mCMake Error at CMakeLists.txt:37:
+[0.360s]   Parse error.  Expected "(", got newline with text "
+[0.360s] 
+[0.360s]   ".
+[0.361s] 
+[0.361s] [0m
+[0.368s] -- Configuring incomplete, errors occurred!
+[0.368s] See also "/home/tuantran/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.376s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.382s] Invoked command in '/home/tuantran/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/cpp_pubsub -- -j2 -l2

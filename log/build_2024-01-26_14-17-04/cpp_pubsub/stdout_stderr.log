@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:37:
+  Parse error.  Expected "(", got newline with text "
+-- Configuring incomplete, errors occurred!
+See also "/home/tuantran/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+
+  ".
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1
