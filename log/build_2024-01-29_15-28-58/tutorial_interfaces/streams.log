@@ -1,0 +1,85 @@
+[0.495s] Invoking command in '/home/tuantran/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/install/tutorial_interfaces
+[1.160s] -- The C compiler identification is GNU 11.4.0
+[1.742s] -- The CXX compiler identification is GNU 11.4.0
+[1.819s] -- Detecting C compiler ABI info
+[2.526s] -- Detecting C compiler ABI info - done
+[2.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.610s] -- Detecting C compile features
+[2.613s] -- Detecting C compile features - done
+[2.632s] -- Detecting CXX compiler ABI info
+[3.101s] -- Detecting CXX compiler ABI info - done
+[3.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.178s] -- Detecting CXX compile features
+[3.179s] -- Detecting CXX compile features - done
+[3.209s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.497s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.206s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.683s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.734s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.893s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.012s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[15.099s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[19.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.131s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[21.137s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[21.295s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[21.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.296s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[21.297s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[21.476s] -- Found PythonExtra: .so  
+[22.533s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.753s] -- Added test 'lint_cmake' to check CMake code style
+[22.784s] -- Added test 'xmllint' to check XML markup files
+[22.903s] -- Configuring done
+[23.489s] -- Generating done
+[23.543s] -- Build files have been written to: /home/tuantran/ros2_ws/build/tutorial_interfaces
+[23.638s] Invoked command in '/home/tuantran/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws/install/tutorial_interfaces
+[23.642s] Invoking command in '/home/tuantran/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[24.069s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[26.679s] [  2%] Built target tutorial_interfaces__cpp
+[26.717s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[29.734s] [  6%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[30.006s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[30.273s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[30.585s] [ 12%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[30.784s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[30.902s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[30.950s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[33.014s] [ 17%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[34.624s] [ 19%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[35.727s] [ 21%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[37.068s] [ 23%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[37.364s] [ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[37.412s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[39.075s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[40.394s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[41.687s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[43.228s] [ 34%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[43.613s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[43.653s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[45.439s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[46.980s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[48.664s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[50.294s] [ 44%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[50.628s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[50.694s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[52.358s] [ 48%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[52.505s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[52.648s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[52.790s] [ 55%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[52.928s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[52.969s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[54.199s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[54.313s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[54.430s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[54.629s] [ 65%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[54.817s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_c
+[54.874s] [ 68%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[56.371s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[58.220s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[60.689s] gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:178: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o] Interrupt
+[60.689s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[60.690s] gmake: *** [Makefile:146: all] Interrupt

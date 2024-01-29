@@ -1,0 +1,29 @@
+[0.534s] Invoking command in '/home/tuantran/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/polygon_base -- -j2 -l2
+[0.932s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[14.420s] [100%] [32m[1mLinking CXX executable area_node[0m
+[15.654s] [100%] Built target area_node
+[15.708s] Invoked command in '/home/tuantran/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws/build/polygon_base -- -j2 -l2
+[16.064s] Invoking command in '/home/tuantran/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws/build/polygon_base
+[16.118s] -- Install configuration: ""
+[16.119s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/include
+[16.119s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/include/polygon_base
+[16.120s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[16.120s] -- Installing: /home/tuantran/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[16.128s] -- Set runtime path of "/home/tuantran/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""
+[16.129s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[16.130s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[16.131s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[16.132s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[16.133s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[16.134s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[16.135s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[16.136s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[16.136s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[16.137s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[16.138s] -- Installing: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[16.140s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[16.140s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.141s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[16.142s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[16.143s] -- Up-to-date: /home/tuantran/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[16.153s] Invoked command in '/home/tuantran/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws/build/polygon_base
