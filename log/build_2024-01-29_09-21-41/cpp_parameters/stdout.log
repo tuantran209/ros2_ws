@@ -1,0 +1,18 @@
+[100%] Built target minimal_param_node
+-- Install configuration: ""
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+-- Installing: /home/tuantran/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml

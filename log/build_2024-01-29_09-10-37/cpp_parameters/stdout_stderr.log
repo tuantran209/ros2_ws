@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target minimal_param_node[0m
+[100%] Built target minimal_param_node
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/tuantran/ros2_ws/src/cpp_parameters/launch": No such file or
+  directory.
+
+[0m
+-- Install configuration: ""
+-- Up-to-date: /home/tuantran/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
